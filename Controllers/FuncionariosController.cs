@@ -32,7 +32,7 @@ namespace FuncionarioCadastro.Controllers
             return View(await funcionarios.ToListAsync());
         }
 
-        // GET: Funcionarios/Details/5
+        
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Funcionario == null)
@@ -50,18 +50,16 @@ namespace FuncionarioCadastro.Controllers
             return View(funcionario);
         }
 
-        // GET: Funcionarios/Create
+       
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Funcionarios/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+       
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Email,Administração,Vendas,Estoque,DataEntrada,Salário")] Funcionario funcionario)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Email,Java,Csharp,React,DataEntrada,Salário")] Funcionario funcionario)
         {
             if (ModelState.IsValid)
             {
@@ -72,7 +70,7 @@ namespace FuncionarioCadastro.Controllers
             return View(funcionario);
         }
 
-        // GET: Funcionarios/Edit/5
+       
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Funcionario == null)
@@ -88,12 +86,10 @@ namespace FuncionarioCadastro.Controllers
             return View(funcionario);
         }
 
-        // POST: Funcionarios/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Email,Administração,Vendas,Estoque,DataEntrada,Salário")] Funcionario funcionario)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Email,Java,Csharp,React,DataEntrada,Salário")] Funcionario funcionario)
         {
             if (id != funcionario.Id)
             {
@@ -123,7 +119,7 @@ namespace FuncionarioCadastro.Controllers
             return View(funcionario);
         }
 
-        // GET: Funcionarios/Delete/5
+      
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Funcionario == null)
@@ -141,7 +137,7 @@ namespace FuncionarioCadastro.Controllers
             return View(funcionario);
         }
 
-        // POST: Funcionarios/Delete/5
+       
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

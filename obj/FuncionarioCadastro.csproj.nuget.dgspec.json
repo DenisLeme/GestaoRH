@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ProOcupacional\\Desktop\\programação\\GestaoRH\\gestao_de_funcionarios.NET\\FuncionarioCadastro\\FuncionarioCadastro.csproj": {}
+    "C:\\Users\\Denis Leme\\OneDrive\\Área de Trabalho\\Programação\\GestaoRH\\GestaoRH\\FuncionarioCadastro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ProOcupacional\\Desktop\\programação\\GestaoRH\\gestao_de_funcionarios.NET\\FuncionarioCadastro\\FuncionarioCadastro.csproj": {
+    "C:\\Users\\Denis Leme\\OneDrive\\Área de Trabalho\\Programação\\GestaoRH\\GestaoRH\\FuncionarioCadastro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ProOcupacional\\Desktop\\programação\\GestaoRH\\gestao_de_funcionarios.NET\\FuncionarioCadastro\\FuncionarioCadastro.csproj",
+        "projectUniqueName": "C:\\Users\\Denis Leme\\OneDrive\\Área de Trabalho\\Programação\\GestaoRH\\GestaoRH\\FuncionarioCadastro.csproj",
         "projectName": "FuncionarioCadastro",
-        "projectPath": "C:\\Users\\ProOcupacional\\Desktop\\programação\\GestaoRH\\gestao_de_funcionarios.NET\\FuncionarioCadastro\\FuncionarioCadastro.csproj",
-        "packagesPath": "C:\\Users\\ProOcupacional\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ProOcupacional\\Desktop\\programação\\GestaoRH\\gestao_de_funcionarios.NET\\FuncionarioCadastro\\obj\\",
+        "projectPath": "C:\\Users\\Denis Leme\\OneDrive\\Área de Trabalho\\Programação\\GestaoRH\\GestaoRH\\FuncionarioCadastro.csproj",
+        "packagesPath": "C:\\Users\\Denis Leme\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Denis Leme\\OneDrive\\Área de Trabalho\\Programação\\GestaoRH\\GestaoRH\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ProOcupacional\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Denis Leme\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -56,19 +56,17 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.5, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[6.0.5, )"
-            },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -94,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
