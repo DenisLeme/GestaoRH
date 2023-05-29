@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-FuncionarioCadastro-4e53c23e-765a-4ebc-9e2a-21e323a8947d")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("FuncionarioCadastro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
